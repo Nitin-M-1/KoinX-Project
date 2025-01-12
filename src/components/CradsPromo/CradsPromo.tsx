@@ -1,5 +1,5 @@
 import { FaArrowRight } from "react-icons/fa";
-import promoimg from "../assets/promoimg.png";
+import promoimg from "../../assets/promoimg.png";
 
 function CradsPromo() {
   return (

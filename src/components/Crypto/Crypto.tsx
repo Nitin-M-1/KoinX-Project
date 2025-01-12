@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import TradingViewWidget from "./TradingViewWidget";
-import img from "../assets/btc.png";
+// import TradingViewWidget from "../TradingViewWidget/TradingViewWidget";
+import TradingViewWidget from "../TradingViewWidget/TradingViewWidget";
+import img from "../../assets/btc.png";
 
 interface CryptoData {
   inr: number;
