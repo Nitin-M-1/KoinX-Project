@@ -1,7 +1,6 @@
 # Koinx Project
 ![Project Overview](https://raw.githubusercontent.com/Nitin-M-1/koinx-project/refs/heads/master/public/image.png)
 
-## Prerequisites
 
 ## Installation
 
