@@ -17,8 +17,8 @@ function TrendingCoins() {
         const response = await axios.get(
           "https://api.coingecko.com/api/v3/search/trending"
         );
-        const trendingCoins = response.data.coins.slice(0, 3);
-
+        const trendingCoins = response.data.coins.slice(4,7);
+        
         const formattedCoinsData: CoinProps[] = trendingCoins.map((coin: any) => ({
           symbol: coin.item.symbol.toUpperCase(),
           name: coin.item.name,
@@ -26,7 +26,6 @@ function TrendingCoins() {
           changePercentage: coin.item.data.price_change_percentage_24h.usd.toFixed(2),
         }));
 
-        // Updating the state with the formatted data
         setCoinsData(formattedCoinsData);
       } catch (error) {
         console.error("Error fetching coin data:", error);
