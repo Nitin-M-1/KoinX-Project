@@ -16,4 +16,4 @@
    npm dev start
 
 - The `npm install` command is included in the installation steps to install all dependencies.
-- The `npm start` command starts the development server to run the app locally.
+- The `npm dev start` command starts the development server to run the app locally.
