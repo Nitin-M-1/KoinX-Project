@@ -3,11 +3,15 @@
 
 ## Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+## Installation
 
-- **Node.js**: You need to have Node.js installed on your system. You can download it from the [official Node.js website](https://nodejs.org/).
-- **npm**: npm (Node Package Manager) is included with Node.js. Check if you have npm installed by running:
-  ```bash
-  npm -v
+1. **Clone the repository**:
+   Clone the project from GitHub:
+   ```bash
+   git clone https://github.com/Nitin-M-1/koinx-prioject.git
+   cd koinx-prioject
 
+   npm install
+  
+   npm dev start
 
