@@ -8,10 +8,12 @@
 1. **Clone the repository**:
    Clone the project from GitHub:
    ```bash
-   git clone https://github.com/Nitin-M-1/koinx-prioject.git
+   git clone https://github.com/Nitin-M-1/koinx-project.git
    cd koinx-prioject
 
    npm install
   
    npm dev start
 
+- The `npm install` command is included in the installation steps to install all dependencies.
+- The `npm start` command starts the development server to run the app locally.
